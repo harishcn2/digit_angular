@@ -1,0 +1,563 @@
+/* vietnamese */
+@font-face {
+  font-family: 'Muli';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Muli Light'), local('Muli-Light'), url(https://fonts.gstatic.com/s/muli/v12/7Au_p_0qiz-adZnkOCr2z3wM.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Muli';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Muli Light'), local('Muli-Light'), url(https://fonts.gstatic.com/s/muli/v12/7Au_p_0qiz-adZnkOCv2z3wM.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Muli';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Muli Light'), local('Muli-Light'), url(https://fonts.gstatic.com/s/muli/v12/7Au_p_0qiz-adZnkOCX2zw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Muli';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Muli Regular'), local('Muli-Regular'), url(https://fonts.gstatic.com/s/muli/v12/7Auwp_0qiz-afT3GLRrX.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Muli';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Muli Regular'), local('Muli-Regular'), url(https://fonts.gstatic.com/s/muli/v12/7Auwp_0qiz-afTzGLRrX.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Muli';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Muli Regular'), local('Muli-Regular'), url(https://fonts.gstatic.com/s/muli/v12/7Auwp_0qiz-afTLGLQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Muli';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Muli Black'), local('Muli-Black'), url(https://fonts.gstatic.com/s/muli/v12/7Au_p_0qiz-adbHhOCr2z3wM.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Muli';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Muli Black'), local('Muli-Black'), url(https://fonts.gstatic.com/s/muli/v12/7Au_p_0qiz-adbHhOCv2z3wM.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Muli';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Muli Black'), local('Muli-Black'), url(https://fonts.gstatic.com/s/muli/v12/7Au_p_0qiz-adbHhOCX2zw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+body{
+	font-family: Muli;
+}
+.p0{
+	padding:0px !important;
+}
+.borderless{
+	border:0px !important;
+	box-shadow: none;
+}
+a,button{
+	outline:none;
+}
+/*css for navigation section starts here*/
+.navbar-static-top {
+    background: #fff;
+    margin-bottom: 0px;
+}
+.navbar-brand {
+    height: 60px;
+}
+.navbar-brand > img {
+    display: block;
+    width: auto;
+    height: 100%;
+}
+.navbar-default .navbar-nav > li > a {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color:#181818;
+    font-family: Muli;
+    font-size: 16px;
+}
+.navbar-default .navbar-nav > li > a:hover {
+	font-weight: bold;
+}
+.navbar-default .navbar-nav > li > a.highlight{
+	color: #F7B856;
+	font-weight: bold;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    color: #555;
+    background-color: transparent;
+}
+/*css for navigation section ends here*/
+/*css for first section starts here*/
+.first-section {
+    background: #FAFAFA;
+    padding:80px 0px;
+}
+.best-plan {
+    font-weight: bold;
+    font-size: 46px;
+    color: #181818;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.search-container {
+    background: #fff;
+    padding: 45px 40px;
+    border-radius: 4px;
+    border: 1px solid #E0E0E0;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 40px;
+}
+.search-container button {
+    background: transparent;
+    border: none;
+    border-radius: 0px;
+    color: #F7B856;
+    font-size: 18px;
+    font-weight: bold;
+    float: right;
+    padding: 6px 12px;
+}
+.search-container input[type="search"] {
+    font-size: 18px;
+    box-shadow: none;
+}
+.first-section .features {
+    background: #fff;
+    border: 1px solid #E0E0E0;
+    padding: 20px 20px 100px 20px;
+    border-radius: 4px;
+    position: relative;
+}
+.first-section .features h3 {
+    font-weight: bold;
+    font-size: 26px;
+    color: #181818;
+    text-transform: capitalize;
+}
+.first-section .features {
+    background: url('/assets/images/2.svg') no-repeat;
+    background-position: 90% 10%;
+}
+.first-section .features h5{
+	color:#50B070;
+	font-size: 18px;
+    margin-top: 0;
+}
+.first-section .features hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.first-section .features .total-cvrage{
+	font-size: 18px;
+	color: #181818;
+	margin-top: 40px;
+}
+.first-section .features .delay{
+	font-size: 18px;
+	color: #7F7F7F;
+}
+.first-section .features .view-pdf {
+    right: 20px;
+    position: absolute;
+    bottom: 30px;
+    color: #F7B856;
+    font-weight: bold;
+    font-size: 14px;
+}
+/*css for first section ends here*/
+/*css for second section ends here*/
+.second-section {
+    background: #FFFFFF;
+    padding:80px 0px;
+}
+.head-with-sub {
+    text-align: center;
+}
+.head-with-sub h2{
+    font-weight: bold;
+    font-size: 40px;
+	color: #181818;
+}
+.head-with-sub p{
+    font-size: 26px;
+	color: #181818;
+}
+.phone-pic {
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+.phone-pic img {
+    margin: 0 auto;
+}
+.phone-list p {
+    text-align: center;
+    font-size: 24px;
+    color: #7F7F7F;
+}
+.phone-list ul {
+    text-align: center;
+    margin-top: 20px;
+	margin-bottom: 30px;
+}
+.phone-list ul li {
+    display: inline;
+    list-style-type: none;
+    padding-right: 30px;
+	padding-left: 30px;
+}
+.phone-list ul li.active a{
+	color:#1f1f1f;
+}
+.phone-list ul li a {
+    color: #F7B856;
+    font-size: 20px;
+text-decoration: none;
+}
+.phone-list ul li a:hover, .phone-list ul li a:active {
+    color: #181818;
+    text-decoration: none;
+}
+.how-much-cst{
+  width:60%;
+  margin:0 auto;
+}
+.how-much-cst .search-container {
+    background: #fff;
+    padding: 10px 10px;
+    border-radius: 4px;
+    border: 1px solid #a3a3a3;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 40px;
+}
+/*css for second section ends here*/
+/*css for third section starts here*/
+.third-section{
+  background: #fafafa;
+  padding:100px 0px;
+  text-align: center;
+}
+.third-section h2 {
+    color: #181818;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.third-section button {
+    background: #f8c03c;
+    border-radius: 4px;
+    color: #1f1f1f;
+    padding: 15px 20px;
+    border: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+/*css for third section ends here*/
+/*css for fourth section starts here*/
+.fourth-section{
+  background: #fff;
+  padding:80px 0px;
+}
+.fourth-section h2{
+  color:#1f1f1f;
+  font-size: 32px;
+}
+.fourth-section .customer-slide {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.fourth-section h2 {
+    color: #1f1f1f;
+    font-size: 34px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.customer-img {
+    position: relative;
+}
+.customer-details  {
+    background: #f8c03c;
+    width: 55%;
+    position: absolute;
+    bottom: 10px;
+    left: -10px;
+    padding: 10px;
+    text-transform: capitalize;
+    color:#1f1f1f;
+}
+.customer-details p {
+    margin: 0;
+}
+.customer-discr p{
+  font-size: 20px;
+  margin-top: 20px;
+}
+.customer-slide.swiper-wrapper {
+    padding-left: 10px;
+}
+/*css for fourth section ends here*/
+/*css for fifth section starts here*/
+.fifth-section{
+  background: #fafafa;
+  padding:80px 0px;
+}
+.fifth-section h3{
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 20px;
+}
+.accordion {
+    background-color: #fafafa;
+    color: #444;
+    cursor: pointer;
+    padding: 18px 0px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 20px;
+    transition: 0.4s;
+}
+.panel {
+    padding: 0 0px;
+    margin-bottom: 0px;
+    background-color: #FAFAFA;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    border-bottom:1px solid #ebebeb;
+    box-shadow: none;
+}
+.panel p{
+	padding-bottom: 18px;
+}
+.accordion:after {
+    content: '\f107';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+    font-family: FontAwesome;
+}
+.accordion.active:after {
+    content: "\f106";
+    font-family: FontAwesome;
+}
+.fifth-section span{
+  margin-top: 20px;
+  color: #F7B856;
+  font-size: 20px;
+  display: inline-block;
+  cursor: pointer;
+}
+/*css for fifth section ends here*/
+/*css for sixth section starts here*/
+.sixth-section{
+	background:#F4F4F4;
+	padding:40px 0px;
+}
+.sixth-section h4{
+	text-transform: capitalize;
+	font-size: 16px;
+}
+.related-reading {
+    padding-left: 0px;
+    list-style-type: none;
+}
+.related-reading li {
+    margin-bottom: 10px;
+    width: 40%;
+	display: inline-block;
+}
+.related-reading li a {
+    color: #7D7D7D;
+    border-bottom: 1px solid #;
+    text-decoration: none;
+}
+.protect-text h3 {
+    font-size: 36px;
+    text-transform: capitalize;
+    color: #1D1D1D;
+}
+.protect-text a {
+    color: #F7B856;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+}
+.protect-text {
+    border-left: 1px solid #E6E6E6;
+}
+/*css for sixth section ends here*/
+/*css for footer section starts here*/
+footer{
+	background: #FFFFFF;
+}
+.social-section {
+    padding: 60px 0px;
+    border-bottom: 1px solid #eee;
+}
+.social-section ul li {
+    list-style-type: none;
+    display: inline-block;
+	margin-left: 30px;
+	margin-right:30px;
+}
+.social-section ul li a{
+	color:#7D7D7D;
+}
+.social-section ul li a .fa {
+    font-size: 46px;
+    color: #181818;
+    width: 24%;
+}
+.social-section ul li a span {
+    width: 60%;
+    display: inline-block;
+    margin-left: 10px;
+}
+.social-section ul {
+    padding-left: 0px;
+}
+.footer-links {
+    padding: 40px 0px;
+}
+.footer-links-ul ul {
+    padding-left: 0px;
+}
+.footer-links-ul ul li {
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+.footer-links-ul ul li a{
+	color:#4D4D4D;
+}
+.footer-links-ul h4{
+	color: #181818;
+	font-weight: 600;
+	text-transform: capitalize;
+	font-size: 14px;
+}
+.newsletter {
+    background: #FAFAFA;
+    border: 1px solid #EBEBEB;
+    padding: 20px;
+    border-radius: 2px;
+}
+.newsletter h4 {
+    color: #181818;
+    font-weight: bold;
+    font-size: 16px;
+}
+.newsletter form{
+	border:1px solid #eee;
+	border-radius: 2px;
+	background: #fff;
+}
+.newsletter form input{
+	border:0px solid #eee;
+	box-shadow: none;
+}
+.newsletter .btn {
+    background: #FFFFFF;
+    float: right;
+    color:#F7B856;
+}
+.foot-logo{
+	display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.copyright .foot-logo img {
+    width: 75px;
+    height: auto;
+}
+.copyright .cpy-ryt-logo .img-responsive {
+    width: 100px;
+    height: auto;
+    padding-right: 10px;
+}
+.cpy-ryt-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+/*css for footer section ends here*/
+
+@media (max-width:1024px){
+
+}
+@media (max-width:980px){
+
+}
+@media (max-width:800px){
+
+}
+@media (max-width:768px){
+
+}
+@media (max-width:767px){
+
+}
+@media (max-width:732px){
+
+}
+@media (max-width:667px){
+
+}
+@media (max-width:640px){
+
+}
+@media (max-width:639px){
+
+}
+@media (max-width:568px){
+
+}
+@media (max-width:480px){
+	
+}
+@media (max-width:414px){
+	
+}
+@media (max-width:375px){
+	
+}
+@media (max-width:360px){
+	
+}
+@media (max-width:320px){
+
+}
